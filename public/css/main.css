@@ -1,0 +1,18 @@
+.vdivide{
+  margin-top:20px;
+  height:95vh;
+  width: 2px;
+  background-color: #000;
+}
+.rsNav ul{
+  margin-left:10px;
+
+}
+.rotate {
+transform: rotate(90deg);
+transform-origin: left top 0;
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+margin-bottom: 50px;
+font-size: 20px;
+}
