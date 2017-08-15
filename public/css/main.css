@@ -1,5 +1,6 @@
 body{
-  background-image: url(/media/background.png);
+  background-image: url('http://i.imgur.com/YADf8V0.png');
+  /*background-image: url(/media/background.png);*/
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -55,9 +56,9 @@ color:#fff;
 .note{
   color: #fff;
   float: right;
-  width:257px;
-  padding: 10px;
- background-color: rgba(255,204,0,0.3);
+  width:260px;
+  padding: 5px;
+ background-color: rgba(255,204,0,0.1);
  border-radius: 25px;
 }
 .note a {
