@@ -1,11 +1,29 @@
+body{
+  background-image: url(/media/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/*nav area*/
 .vdivide{
   margin-top:20px;
-  height:95vh;
+  height:98vh;
   width: 2px;
-  background-color: #000;
+  background-color: #fff;
 }
 .rsNav ul{
+  margin-top: 20px;
   margin-left:10px;
+}
+
+.rsNav a{
+  color:#fff
+
+}
+.rsNav a:hover{
+  color: #ffcc00;
 
 }
 .rotate {
@@ -15,4 +33,34 @@ transform-origin: left top 0;
 filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 margin-bottom: 50px;
 font-size: 20px;
+color:#fff;
+}
+
+
+/*content area*/
+#logo{
+  width: 300px;
+}
+
+#boxy{
+  width: 500px;
+  height: 300px;
+  border: 5px solid #fff;
+}
+#boxy p{
+  color:#fff;
+  padding:5px;
+  font-family: "Open Sans";
+}
+.note{
+  color: #fff;
+  float: right;
+  width:257px;
+  padding: 10px;
+ background-color: rgba(255,204,0,0.3);
+ border-radius: 25px;
+}
+.note a {
+  color:#fff;
+  text-decoration: underline;
 }
